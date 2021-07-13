@@ -16,7 +16,7 @@ namespace Alura.WebAPI.WebApp.Api
         {
             _repo = repository;
         }
-        //teste
+       
         [HttpGet]
         public ActionResult Recuperar(int id)
         {
